@@ -17,9 +17,11 @@ and exports it to an Excel file.
 
 ## Usage
 
+```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-python3 scraper.py
+python3 test.py
+```
 
-Output: books.xlsx
+Output: `books.xlsx`
